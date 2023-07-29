@@ -55,7 +55,9 @@ struct SoundButton: View {
 struct SoundboardView: View {
     let soundData = [
         (soundURL: Bundle.main.url(forResource: "jazz", withExtension: "mp3")!, label: "Sound 1"),
-        (soundURL: Bundle.main.url(forResource: "rain", withExtension: "mp3")!, label: "Sound 2")
+        (soundURL: Bundle.main.url(forResource: "rain", withExtension: "mp3")!, label: "Sound 2"),
+        (soundURL: Bundle.main.url(forResource: "chatter", withExtension: "mp3")!, label: "Sound 3"),
+        (soundURL: Bundle.main.url(forResource: "fireplace", withExtension: "mp3")!, label: "Sound 4")
         // Add more sound data URLs here
     ]
     

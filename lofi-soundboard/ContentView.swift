@@ -19,11 +19,10 @@ struct ContentView: View {
                     Button(action: {
                         self.showSoundboard.toggle() // Toggle the state to show the soundboard
                     }) {
-                        Text("->")
-                            .foregroundColor(.white)
-                            .padding()
-                            .background(Color.red)
-                            .cornerRadius(30)
+                        Image(systemName: "arrow.right.circle")
+                            .resizable()
+                            .foregroundColor(Color(.white))
+                            .frame(width: 40, height: 40)
                     }
                     .padding()
                 }
